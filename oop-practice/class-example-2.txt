@@ -1,0 +1,14 @@
+student (class)
+
+isAthlete (boolean)
+isEnrolled (boolean)
+favoriteSubjects (array)
+locker (string)
+classesEnrolledIn (array)
+numberOfCreditsToGraduate (integer)
+
+addFavoriteSubject (adds to the favoriteSubjects array)
+dropClass (updates the array classesEnrolledIn)
+passClass (subtracts 3 from numberOfCreditsToGraduate attribute)
+failClass (changes isAthlete to false)  //becomes inelligible
+student (class)
