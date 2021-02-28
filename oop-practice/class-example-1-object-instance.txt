@@ -1,0 +1,17 @@
+lockerFortyFour (instance)
+
+isJammed = false
+isLocked = false
+hasGraffiti = false
+numberOfBooks = 3
+combination = "32-4-96"
+studentAssignedTo = Stephanie
+colors = ["orange", "blue"]
+doorDecor = ["birthday card", "Buffy the Vampire Slayer magnet"]
+
+lock: isLocked = true
+sprayPaint: hasGraffiti = true & colors = ["orange", "blue", "black"]
+addMirror: doorDecor = ["birthday card", "Buffy the Vampire Slayer magnet", "mirror"]
+closeOnBagPack: isJammed = true
+addBook: numberOfBooks = 4
+addNewStudent: studentAssignedTo = Mark & combination= "10-5-2"
