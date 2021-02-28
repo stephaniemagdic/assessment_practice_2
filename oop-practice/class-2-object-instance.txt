@@ -1,0 +1,13 @@
+Cameron instance
+
+isAthlete = true
+isEnrolled = true
+favoriteSubjects = ["math", "PE"]
+locker = "lockerFortyFour"
+classesEnrolledIn = ["Math", "PE", "English", "Social Studies", "Science"]
+numberOfCreditsToGraduate = 21
+
+addFavoriteSubject: favoriteSubjects = ["math", "PE", "science"]
+dropClass: classesEnrolledIn =["Math", "PE", "English", "Social Studies"]
+passClass: numberOfCreditsToGraduate = 18
+failClass: isAthlete = false
