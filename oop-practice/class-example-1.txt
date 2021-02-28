@@ -1,0 +1,17 @@
+locker (class)
+
+isJammed (boolean)
+isLocked (boolean)
+hasGraffiti (boolean)
+numberOfBooks (integer)
+combination (string)
+studentAssignedTo (string)
+colors (array)
+doorDecor(array)
+
+lock (changes isLocked to true)
+spraypaint (adds a color to the colors array)
+addMirror (adds one to doorDecor array)
+closeOnBagPack (changes isLocked to true)
+addBook (adds 1 to numberOfBooks)
+addNewStudent (updates the combination and studentAssignedTo variable)
